@@ -1,4 +1,4 @@
-main: main.o Obras.o Literatura.o
+main: main.o Obras.o Literatura.o Esculturas.o Pinturas.o Arquitectonicos.o
 	g++ main.o Obras.o Literatura.o Esculturas.o Pinturas.o Arquitectonicos.o -o a 
 	
 main.o:	main.cpp Obras.h Literatura.h Esculturas.h Pinturas.h Arquitectonicos.h
@@ -13,7 +13,7 @@ Literatura.o:	Literatura.cpp Literatura.h Obras.h
 Esculturas.o:	Esculturas.cpp Esculturas.h Obras.h
 	g++ -c Esculturas.cpp
 
-Pinturas.o:	Pintuas.cpp Pinturas.h Obras.h
+Pinturas.o:	Pinturas.cpp Pinturas.h Obras.h
 	g++ -c Pinturas.cpp
 
 Arquitectonicos.o:	Arquitectonicos.cpp Arquitectonicos.h Obras.h

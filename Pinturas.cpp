@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Pinturas.h"
-#include "obras.h"
+#include "Obras.h"
 #include <string>
 #include <sstream>
 
