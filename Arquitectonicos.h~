@@ -1,0 +1,11 @@
+#pragma once
+#include "Obras.h"
+#include <string>
+
+class Arquitectonicos : public Obras{
+	string terreno;
+public:
+	Arquitectonicos(string);
+	~Arquitectonicos();
+	string toString();
+};
