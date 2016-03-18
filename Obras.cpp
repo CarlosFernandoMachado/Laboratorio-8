@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#pragma once
 
 using std::stringstream;
 using std::string;

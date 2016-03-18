@@ -35,7 +35,7 @@ int main(int argc, char*argv[]){
 				cin >> genero;
 				cout << "Escriba la epoca de la obra: ";
 				cin >> epoca;
-				Literatura libro = new Literatura(nombre,autor,fecha,genero,epoca):
+				Literatura libro(nombre,autor,fecha,genero,epoca);
 				arte.push_back(libro);
 			}else if(menu == 2){
 				double peso;
@@ -44,7 +44,7 @@ int main(int argc, char*argv[]){
 				cin >> peso;
 				cout << "Escriba el material de la obra: ";
 				cin >> material;
-				Esculturas libro = new Esculturas(nombre,autor,fecha,peso,material):
+				Esculturas libro(nombre,autor,fecha,peso,material);
 				arte.push_back(libro);
 			}else if(menu == 3){
 				string material,tecnica;
@@ -52,13 +52,13 @@ int main(int argc, char*argv[]){
 				cin >> tecnica;
 				cout << "Escriba el material de la obra: ";
 				cin >> material;
-				Pinturas libro = new Pinturas(nombre,autor,fecha,material,tecnica):
+				Pinturas libro(nombre,autor,fecha,material,tecnica);
 				arte.push_back(libro);
 			}else if(menu == 4){
 				string terreno;
 				cout << "Escriba el terreno de la obra: ";
 				cin >> terreno;
-				Arquitectonicos libro = new Arquitectonicos(nombre,autor,fecha,terreno):
+				Arquitectonicos libro(nombre,autor,fecha,terreno);
 				arte.push_back(libro);
 			}
 		}else if(menu == 2){
@@ -68,7 +68,7 @@ int main(int argc, char*argv[]){
 			int opcion;
 			cout << "Escoja la posicion: ";
 			cin >> opcion;
-			eliminados.push_back(arte[i].toString());
+			eliminados.push_back(arte[opcion].toString());
 			arte.erase(arte.begin()+opcion);
 		}else if(menu == 3){
 			for(int i = 0;i < arte.size();i++){

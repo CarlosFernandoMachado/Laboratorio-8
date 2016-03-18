@@ -2,7 +2,7 @@
 #include "Obras.h"
 #include "Esculturas.h"
 #include <string>
-#include <stringstream>
+#include <sstream>
 
 using std::string;
 using std::stringstream;

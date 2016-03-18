@@ -8,7 +8,7 @@ class Obras{
 	string nombre;
 	string autor;
 	string fecha;
-public;
+public:
 	Obras(string,string,string);
 	~Obras();
 	string toString();

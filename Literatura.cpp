@@ -2,7 +2,7 @@
 #include "Literatura.h"
 #include "Obras.h"
 #include <string>
-#include <stringstream>
+#include <sstream>
 
 using std::string;
 using std::stringstream;

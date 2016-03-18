@@ -2,7 +2,7 @@
 #include "Pinturas.h"
 #include "obras.h"
 #include <string>
-#include <stringstream>
+#include <sstream>
 
 using std::string;
 using std::stringstream;

@@ -3,4 +3,13 @@
 
 using std::string;
 
-public 
+class Obras{
+
+	string nombre;
+	string autor;
+	string fecha;
+public;
+	Obras(string,string,string);
+	~Obras();
+	string toString();
+};
